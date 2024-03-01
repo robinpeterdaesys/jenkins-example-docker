@@ -7,6 +7,8 @@ pipeline {
             steps {
                 sh 'node --version'
                 sh 'cp README.md README-2.md'
+
+                sh 'cat README-2.md'
             }
         }
     }
