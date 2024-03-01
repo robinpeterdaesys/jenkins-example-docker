@@ -6,6 +6,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'node --version'
+                sh 'cp README.md README-2.md'
             }
         }
     }
